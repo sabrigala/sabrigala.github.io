@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google clone</title>
+
+    <link rel="shortcut icon" href="img/logo-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="">Gmail</a>
+            <a href="">Imágenes</a>
+            <a href="#" id="btn-barra" class="icon-apps">
+                <span class="material-symbols-outlined">
+                    apps
+                </span>
+            </a>
+            <img class="btn-login" src="https://lh3.googleusercontent.com/ogw/AAEL6sixOfh9X5jyfFbPyPpGaBFE60ADY2zV7TI0vgLm=s32-c-mo" srcset="https://lh3.googleusercontent.com/ogw/AAEL6sixOfh9X5jyfFbPyPpGaBFE60ADY2zV7TI0vgLm=s32-c-mo 1x, https://lh3.googleusercontent.com/ogw/AAEL6sixOfh9X5jyfFbPyPpGaBFE60ADY2zV7TI0vgLm=s64-c-mo 2x "
+                alt="" aria-hidden="true" data-noaft="">
+        </nav>
+
+        <div class="barra" id="barra">
+            <a href="#">
+                <img class="google" src="./img/google.png" alt="logo google">
+
+            </a>
+
+            <a href="#">
+                <img class="btn-login-barra" src="https://lh3.googleusercontent.com/ogw/AAEL6sixOfh9X5jyfFbPyPpGaBFE60ADY2zV7TI0vgLm=s32-c-mo" srcset="https://lh3.googleusercontent.com/ogw/AAEL6sixOfh9X5jyfFbPyPpGaBFE60ADY2zV7TI0vgLm=s32-c-mo 1x, https://lh3.googleusercontent.com/ogw/AAEL6sixOfh9X5jyfFbPyPpGaBFE60ADY2zV7TI0vgLm=s64-c-mo 2x "
+                    alt="" aria-hidden="true" data-noaft="">
+
+            </a>
+            <a href="#">
+                <img class="google-maps" src="./img/google-maps.png" alt="google maps">
+
+            </a>
+            <a href="#">
+                <img class="youtube" src="./img/youtube.png" alt=" youtube">
+
+            </a>
+
+            <a href="#">
+                <img class="play" src="./img/google-play.png" alt=" play">
+
+            </a>
+
+            <a href="#">
+                <img class="noticia" src="./img/google-noticia.png" alt=" noticia">
+
+            </a>
+            <a href="#">
+                <img class="meet" src="./img/meet.png" alt=" meet">
+
+            </a>
+            <a href="#">
+                <img class="gmail" src="./img/gmail.png" alt=" meet">
+
+            </a>
+
+            <a href="#">
+                <img class="drive" src="./img/google-drive.png" alt=" meet">
+
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="main-logo">
+            <img src="img/logo-google.png" alt="">
+        </section>
+        <section class="main-input">
+            <div class="main-input-container">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+                <input type="text">
+            </div>
+        </section>
+        <section class="main-buttons">
+            <div>
+                <button>Buscar con Google</button>
+            </div>
+            <div>
+                <button>Voy a tener suerte</button>
+            </div>
+            <p>Ofrecido por Google en: <a href="">Español(Latinoamérica)</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <section class="country">
+            <p>Argentina</p>
+        </section>
+        <section class="others">
+            <div>
+                <a href="">Sobre Google</a>
+                <a href="">Publicidad</a>
+                <a href="">Negocios</a>
+                <a href="">Cómo funciona la búsqueda</a>
+            </div>
+
+            <div>
+                <a href="">Privacidad</a>
+                <a href="">Condiciones</a>
+                <a href="">Preferencias</a>
+            </div>
+        </section>
+    </footer>
+
+    <script>
+        let btnBarra = document.getElementById('btn-barra');
+        let barra = document.getElementById('barra');
+
+        btnBarra.addEventListener('click', () => {
+            barra.classList.toggle('active');
+
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,296 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #202124;
+}
+
+
+/* HEADER  */
+
+header {
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav .icon-apps span {
+    display: inline-block;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+header nav .icon-apps span:hover {
+    background-color: #323338;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header nav .btn-login {
+    color: #202124;
+    border-radius: 50%;
+    padding: 10px 30px;
+    margin-right: 20px;
+}
+
+.barra {
+    border-radius: 10px;
+    box-shadow: -1px -1px 5px 0px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 48px;
+    right: 5px;
+    padding: 22px;
+    margin: 20px;
+    width: 250px;
+    height: 300px;
+    background-color: #2d2e30;
+    display: none;
+}
+
+.barra.active {
+    display: block;
+}
+
+.google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 15%;
+    display: inline-block;
+}
+
+.text-google {
+    display: flex;
+    color: white;
+    font-size: 14px;
+    margin-left: -6px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.btn-login-barra {
+    display: flex;
+    border-radius: 50%;
+    padding: 10px 30px;
+    margin-right: 158px;
+    margin-top: -74px;
+    width: 18%;
+    margin-left: 65px;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+.google-maps {
+    display: flex;
+    padding-top: 0px;
+    margin-top: -52px;
+    margin-left: 193px;
+    width: 17%;
+    justify-content: flex-end;
+}
+
+.youtube {
+    display: flex;
+    padding-top: 0px;
+    margin-top: 26px;
+    margin-left: 3px;
+    width: 17%;
+    margin-right: 0px;
+}
+
+.play {
+    display: flex;
+    padding-top: 14px;
+    margin-top: -54px;
+    margin-left: 197px;
+    width: 16%;
+}
+
+.noticia {
+    display: flex;
+    padding-top: 0px;
+    margin-top: 26px;
+    margin-left: 3px;
+    width: 17%;
+    margin-right: 0px;
+}
+
+.meet {
+    display: flex;
+    padding-top: 14px;
+    margin-top: -123px;
+    margin-left: 105px;
+    width: 16%;
+}
+
+.gmail {
+    display: flex;
+    padding-top: 0px;
+    margin-top: 26px;
+    margin-left: 103px;
+    width: 17%;
+    margin-right: 0px;
+}
+
+.drive {
+    display: flex;
+    padding-top: 14px;
+    margin-top: -54px;
+    margin-left: 197px;
+    width: 16%;
+}
+
+
+/*header nav .btn-login:hover {
+    background-color: #323338
+}*/
+
+
+/* MAIN */
+
+main {
+    text-align: center;
+    margin-top: 150px;
+}
+
+main .main-logo {
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+main .main-logo img {
+    width: 300px;
+}
+
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #454545;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input-container:hover {
+    background-color: #454545;
+}
+
+main .main-input input {
+    background-color: transparent;
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+}
+
+main .main-input-container span {
+    margin-top: 3px;
+    color: #9aa0a6;
+}
+
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div {
+    display: inline-block;
+}
+
+main .main-buttons button {
+    height: 36px;
+    background-color: #333333;
+    border: 0;
+    font-size: 14px;
+    color: #f2f2f2;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+    border: 1px solid transparent;
+}
+
+main .main-buttons button:hover {
+    border: 1px solid #4d4d4d;
+}
+
+main .main-buttons p {
+    color: white;
+}
+
+main .main-buttons p a {
+    color: #8cbcff;
+    text-decoration: none;
+}
+
+main .main-buttons p a:hover {
+    text-decoration: underline;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: #131313;
+}
+
+footer .country {
+    padding: 5px 0;
+    border-bottom: 1px solid #484b4e;
+}
+
+footer .country p {
+    margin-left: 30px;
+    color: #9aa0a6;
+    font-size: 14px;
+}
+
+footer .others {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+footer .others a {
+    color: #9aa0a6;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+footer .others a:hover {
+    text-decoration: underline;
+}
